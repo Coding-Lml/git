@@ -45,3 +45,8 @@ Git使用教学
 
 ## 远程仓库
 
+1. 添加远程仓库   git remote add <远程仓库别名> <远程仓库地址>     远程仓库别名一般是origin ，然后 git push -u <远程仓库名><分支名>
+2. 查看远程仓库  git remote -v
+3. 拉取远程仓库内容.   git pull <远程仓库名> <远程分支名>：<本地分支名>![image-20251020180054984](/Users/aloong/Library/Application Support/typora-user-images/image-20251020180054984.png)
+
+上述是无仓库和有仓库与远程仓库绑定的两种方式
